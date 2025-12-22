@@ -40,7 +40,7 @@ body {
   top: 120px;
   left: 60px;
   width: 280px;
-  height: calc(100vh - 240px);
+  height: calc(100vh - 220px);
   background: var(--bg-sidebar);
   border-radius: 20px;
   padding: 30px;
@@ -533,3 +533,4 @@ section h2::after {
   color: #ffffff;
   transform: translateX(-4px);
 }
+
