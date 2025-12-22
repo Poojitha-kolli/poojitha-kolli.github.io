@@ -40,7 +40,7 @@ body {
   top: 120px;
   left: 60px;
   width: 280px;
-  height: calc(100vh - 180px);
+  height: calc(100vh - 200px);
   background: var(--bg-sidebar);
   border-radius: 20px;
   padding: 30px;
@@ -115,15 +115,24 @@ body {
 
 /* RESUME BUTTON */
 .resume-btn-big {
-  display: block;
   width: 100%;
-  padding: 14px 0;
+  max-width: 220px;       /* 🔥 key fix */
+  margin: 0 auto;         /* center inside sidebar */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  padding: 12px 0;        /* reduced height */
   background: #2ee98f;
   color: #000;
   font-weight: 700;
   text-decoration: none;
-  border-radius: 30px;
-  font-size: 1rem;
+  border-radius: 999px;
+  font-size: 0.95rem;
+
+  box-sizing: border-box;
 }
 
 .resume-btn-big:hover {
@@ -533,4 +542,5 @@ section h2::after {
   color: #ffffff;
   transform: translateX(-4px);
 }
+
 
