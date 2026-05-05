@@ -1,277 +1,284 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="dark">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title> Portfolio || Poojitha Kolli</title>
-  <link rel="stylesheet" href="style.css"/>
-  <!-- Font Awesome for icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio — Nagendra Vallepu</title>
+<meta name="description" content="Nagendra Vallepu — Microsoft-Certified Data Analyst specializing in Power BI, SQL, and data visualization.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
-
-
 <body>
 
-  <!-- TOP FRAME -->
-  <div class="top-frame"></div>
+<!-- CURSOR -->
+<div class="cursor-dot" id="cursorDot"></div>
+<div class="cursor-ring" id="cursorRing"></div>
 
-  <!-- LEFT SIDEBAR -->
-  <aside class="sidebar">
-
-    <!-- NAME -->
-    <h1 class="profile-name">Poojitha Kolli</h1>
-
-    <!-- PROFILE IMAGE -->
-    <img src="project-images/profile.jpg" alt="Profile" class="profile-img-large">
-
-
-    
-
-    <!-- ROLE -->
-    <p class="profile-role">Data Analyst</p>
-
-    <!-- EMAIL -->
-    <p class="profile-email">poojik9@gmail.com</p>
-
-    <!-- SOCIAL ICONS -->
-    <div class="profile-socials">
-      <a href="https://linkedin.com/in/yourprofile" target="_blank" class="social-circle linkedin">
-        <i class="fab fa-linkedin-in"></i>
-      </a>
-      <a href="https://github.com/yourusername" target="_blank" class="social-circle github">
-        <i class="fab fa-github"></i>
-      </a>
+<!-- NAVIGATION -->
+<nav id="mainNav">
+  <div class="nav-logo" id="navLogo">Portfolio.</div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#resume">Resume</a></li>
+    <li><a href="#portfolio">Work</a></li>
+    <li><a href="#certifications">Certs</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <div class="nav-actions">
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">🌙</button>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
     </div>
+  </div>
+</nav>
 
-    <!-- RESUME BUTTON -->
-   <a href="resume.pdf" target="_blank" class="resume-btn-big">
-  Resume
-  <i class="fas fa-download"></i>
-</a>
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <ul>
+    <li><a href="#home" onclick="closeMobileNav()">Home</a></li>
+    <li><a href="#services" onclick="closeMobileNav()">Services</a></li>
+    <li><a href="#about" onclick="closeMobileNav()">About</a></li>
+    <li><a href="#resume" onclick="closeMobileNav()">Resume</a></li>
+    <li><a href="#portfolio" onclick="closeMobileNav()">Work</a></li>
+    <li><a href="#certifications" onclick="closeMobileNav()">Certifications</a></li>
+    <li><a href="#contact" onclick="closeMobileNav()">Contact</a></li>
+  </ul>
+</div>
 
-
-  </aside>
-
-  <!-- TOP NAVIGATION -->
-  <header class="top-nav">
-    <nav>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#experience">Experience</a>
-      <a href="#education">Education</a>
-      <a href="#certificates">Certificates</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <!-- MAIN CONTENT -->
-  <main class="main-content">
-    <!-- HERO INTRO -->
-<section class="hero-intro">
-  <h1>
-    <span class="hello">Hello,</span>
-    <span class="iam"> I am</span>
-  </h1>
-  <h2 class="hero-name">Poojitha Kolli.</h2>
+<!-- HERO -->
+<section id="home">
+  <div class="hero-orb orb1"></div>
+  <div class="hero-orb orb2"></div>
+  <div class="hero-left">
+    <div class="hero-eyebrow fade-up" id="heroEyebrow">Available for Hire</div>
+    <h1 class="hero-name fade-up">
+      <span>Hello, I'm</span>
+      <span class="gradient-text" id="heroName">Your Name</span>
+    </h1>
+    <div class="hero-roles fade-up">
+      <span id="heroRole" class="typewriter"></span>
+    </div>
+    <p class="hero-desc fade-up" id="heroDesc"></p>
+    <div class="hero-ctas fade-up">
+      <a href="#portfolio" class="btn-primary">View My Work →</a>
+      <a href="#contact" class="btn-outline">Get in Touch</a>
+    </div>
+    <div class="hero-stats fade-up">
+      <div class="stat-item">
+        <div class="stat-num" id="statYears">3+</div>
+        <div class="stat-label">Years Exp.</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" id="statProjects">20+</div>
+        <div class="stat-label">Projects</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-num" id="statClients">15+</div>
+        <div class="stat-label">Clients</div>
+      </div>
+    </div>
+  </div>
+  <div class="hero-visual">
+    <div class="hero-img-frame">
+      <div class="hero-img-placeholder" id="heroImageContainer">
+        <span id="heroEmoji">👤</span>
+        <span>Upload Photo</span>
+      </div>
+    </div>
+    <div class="hero-float-card card1">
+      <div class="float-icon">🏆</div>
+      <div>
+        <div class="float-title">Award Winning</div>
+        <div class="float-sub">Best Developer 2024</div>
+      </div>
+    </div>
+    <div class="hero-float-card card2">
+      <div class="float-icon">⭐</div>
+      <div>
+        <div class="float-title" id="statProjects2">20+ Projects</div>
+        <div class="float-sub">Delivered On Time</div>
+      </div>
+    </div>
+  </div>
 </section>
 
+<div class="divider"></div>
 
-    <section id="about">
-      <h2>About Me</h2>
-      <p>
-  I am an aspiring Data Analyst with <strong>1.5 years of experience</strong> in an enterprise operations environment supporting a retail client. 
-  In my current role, I work with databases, job execution data, and operational dashboards 
-  to support daily business operations and ensure data accuracy.
-</p>
+<!-- SERVICES -->
+<section id="services">
+  <div class="section-label">What I Offer</div>
+  <h2 class="section-title fade-up">Services I Provide</h2>
+  <p class="section-desc fade-up" id="servicesSubtitle">Delivering end-to-end solutions tailored to your needs.</p>
+  <div class="services-grid" id="servicesGrid"></div>
+</section>
 
-<p>
-  Alongside my role, I have built hands-on data analytics projects using 
-  <strong>MySQL, Power BI, Python, Excel, and Figma</strong>, focusing on data cleaning, 
-  analysis, and insight-driven dashboards. These projects strengthened my ability 
-  to translate raw data into meaningful business insights.
-</p>
+<!-- ABOUT -->
+<section id="about">
+  <div class="about-visual fade-up">
+    <div class="about-img-bg" id="aboutImageContainer">
+      <span style="font-size:5rem">👤</span>
+      <div class="about-badge">
+        <div class="badge-num" id="badgeYears">3+</div>
+        <div class="badge-text">Years of<br>Experience</div>
+      </div>
+    </div>
+  </div>
+  <div class="about-content">
+    <div class="section-label">About Me</div>
+    <h2 class="section-title fade-up" id="aboutTitle"></h2>
+    <p class="fade-up" style="color:var(--text2);line-height:1.8;margin-bottom:1rem" id="aboutDesc1"></p>
+    <p class="fade-up" style="color:var(--text2);line-height:1.8;margin-bottom:1.5rem" id="aboutDesc2"></p>
+    <div class="skills-section fade-up" id="skillsContainer"></div>
+  </div>
+</section>
 
-<p>
-  I am now actively seeking an <strong>Data Analyst role</strong> where I can 
-  apply my project experience and grow in a full-time analytics position.
-</p>
+<div class="divider"></div>
 
-      <!-- SKILL SET -->
-      <div class="about-skills">
-        <h4 class="about-subtitle">SKILL SET</h4>
+<!-- RESUME -->
+<section id="resume">
+  <div class="section-label">My Journey</div>
+  <h2 class="section-title fade-up">Experience & Education</h2>
+  <div class="resume-tabs">
+    <button class="tab-btn active" onclick="switchTab('exp')">Work Experience</button>
+    <button class="tab-btn" onclick="switchTab('edu')">Education</button>
+  </div>
+  <div id="expTab" class="timeline"></div>
+  <div id="eduTab" class="timeline" style="display:none"></div>
+</section>
 
-        <div class="skill-grid">
-          <div class="skill-card"><img src="icons/powerbi.png" alt="Power BI"></div>
-          <div class="skill-card"><img src="icons/sql.png" alt="SQL"></div>
-          <div class="skill-card"><img src="icons/excel.png" alt="Excel"></div>
-          <div class="skill-card"><img src="icons/python.png" alt="Python"></div>
-          <div class="skill-card"><img src="icons/tableau.png" alt="Tableau"></div>
-          <div class="skill-card"><img src="icons/figma.png" alt="Figma"></div>
+<!-- PORTFOLIO -->
+<section id="portfolio">
+  <div class="section-label">Selected Work</div>
+  <h2 class="section-title fade-up">My Portfolio</h2>
+  <p class="section-desc fade-up">A curated selection of projects that showcase my skills and passion.</p>
+  <div class="portfolio-filters" id="portfolioFilters">
+    <button class="filter-btn active" onclick="filterProjects('all', this)">All Projects</button>
+  </div>
+  <div class="portfolio-grid" id="portfolioGrid"></div>
+</section>
+
+<div class="divider"></div>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <div class="section-label">Credentials</div>
+  <h2 class="section-title fade-up">Certifications</h2>
+  <div class="certs-grid" id="certsGrid"></div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="contact-info">
+    <div class="section-label">Let's Talk</div>
+    <h2 class="section-title fade-up" id="contactTitle">Ready to Build Something <span class="gradient-text">Amazing?</span></h2>
+    <p class="fade-up" style="color:var(--text2);line-height:1.8;margin-bottom:2.5rem" id="contactDesc">Have a project in mind or want to collaborate? I'd love to hear from you. Let's create something extraordinary together.</p>
+    <div class="contact-item fade-up">
+      <div class="contact-icon">📧</div>
+      <div>
+        <div class="contact-label">Email</div>
+        <div class="contact-value" id="contactEmail">hello@yourname.com</div>
+      </div>
+    </div>
+    <div class="contact-item fade-up">
+      <div class="contact-icon">📞</div>
+      <div>
+        <div class="contact-label">Phone</div>
+        <div class="contact-value" id="contactPhone">+91 000-000-0000</div>
+      </div>
+    </div>
+    <div class="contact-item fade-up">
+      <div class="contact-icon">📍</div>
+      <div>
+        <div class="contact-label">Location</div>
+        <div class="contact-value" id="contactLocation">Hyderabad, India</div>
+      </div>
+    </div>
+    <div class="social-links fade-up" id="socialLinks">
+      <a href="#" class="social-link" title="LinkedIn">in</a>
+      <a href="#" class="social-link" title="GitHub">gh</a>
+      <a href="#" class="social-link" title="Twitter">𝕏</a>
+    </div>
+  </div>
+  <div>
+    <div class="contact-form fade-up">
+      <h3 style="font-family:var(--font-display);font-size:1.2rem;font-weight:700;margin-bottom:1.5rem">Send a Message</h3>
+      <div class="admin-grid-2">
+        <div class="form-group">
+          <label class="form-label">First Name</label>
+          <input class="form-input" type="text" placeholder="John">
+        </div>
+        <div class="form-group">
+          <label class="form-label">Last Name</label>
+          <input class="form-input" type="text" placeholder="Doe">
         </div>
       </div>
-    </section>
-<section id="projects">
-  <h2>Projects</h2>
-
-  <div class="projects-grid">
-
-    <!-- PROJECT 2 -->
-    <a href="projects/hr-analytics.html" class="project-card">
-      <div class="project-image">
-        <img src="project-images/hr.png" alt="HR Analytics">
+      <div class="form-group">
+        <label class="form-label">Email</label>
+        <input class="form-input" type="email" placeholder="john@example.com">
       </div>
-      <p class="project-tools">POWER BI</p>
-      <h3>HR ANALYTICS</h3>
-    </a>
-
-    <!-- PROJECT 3 -->
-    <a href="projects/business-360.html" class="project-card">
-      <div class="project-image">
-        <img src="project-images/bi360.png" alt="Business Insights 360">
+      <div class="form-group">
+        <label class="form-label">Subject</label>
+        <input class="form-input" type="text" placeholder="Project Inquiry">
       </div>
-      <p class="project-tools">POWER BI | EXCEL | DAX</p>
-      <h3>Business Insights 360</h3>
-    </a>
-
-    <!-- PROJECT 4 -->
-    <a href="projects/Supply-chain.html" class="project-card">
-      <div class="project-image">
-        <img src="project-images/supply.png" alt="Supply-chain">
+      <div class="form-group">
+        <label class="form-label">Message</label>
+        <textarea class="form-textarea" placeholder="Tell me about your project..."></textarea>
       </div>
-      <p class="project-tools">MYSQL</p>
-      <h3>Finance and Supply chain Analytics</h3>
-    </a>
-
+      <button class="btn-primary" style="width:100%;justify-content:center;border-radius:12px;" onclick="showToast('Message sent! I\'ll get back to you soon 🚀')">Send Message →</button>
+    </div>
   </div>
 </section>
 
+<!-- FOOTER -->
+<footer>
+  <div class="footer-copy">© 2025 <span id="footerName">Your Name</span>. All rights reserved.</div>
+  <div class="footer-copy">Made with <span>♥</span> in India</div>
+</footer>
 
-<section id="experience">
-  <h2>Experience</h2>
- <!-- WORK EXPERIENCE -->
-  <div class="experience-block">
-    <h3 class="exp-type">Work Experience</h3>
-
-    <p class="exp-role">
-      Senior System Engineer – Cognizant <span>| Chennai</span>
-    </p>
-
-    <p class="exp-duration">Sept 2024 – Present</p>
-
-    <ul class="exp-points">
-      <li>Worked with production databases, job execution data, and operational dashboards to support daily business operations.</li>
-      <li>Monitored data pipelines and batch jobs to ensure data accuracy, completeness, and system reliability.</li>
-      <li>Performed data validation and issue analysis to identify failures and prevent downstream impact.</li>
-      <li>Collaborated with cross-functional teams to resolve data-related incidents and improve monitoring processes.</li>
-      <li>Gained hands-on exposure to real-world production data and large-scale enterprise systems.</li>
-    </ul>
+<!-- PROJECT POPUP -->
+<div class="project-popup-overlay" id="projectPopupOverlay" onclick="handleProjectOverlayClick(event)">
+  <div class="project-popup">
+    <button class="project-popup-close" onclick="closeProjectPopup()">✕</button>
+    <div class="project-popup-scroll" id="projectPopupScroll">
+      <div class="project-popup-cover" id="projectPopupCover"></div>
+      <div class="project-popup-article">
+        <h2 class="project-popup-title" id="projectPopupTitle"></h2>
+        <div class="project-popup-meta">
+          <span class="project-popup-category" id="projectPopupCategory"></span>
+          <div class="project-popup-tags" id="projectPopupTags"></div>
+        </div>
+        <div class="project-popup-content" id="projectPopupContent"></div>
+      </div>
+    </div>
+    <a class="project-popup-float-btn" id="projectPopupLink" href="#" target="_blank" rel="noopener noreferrer">View Live Project →</a>
   </div>
-  <!-- INTERNSHIP EXPERIENCE -->
-  <div class="experience-block">
-    <h3 class="exp-type">Internship Experience</h3>
+</div>
 
-    <p class="exp-role">
-      Mainframe developer – Cognizant <span>| Kochi</span>
-    </p>
+<!-- TOAST -->
+<div class="toast" id="toast"></div>
 
-    <p class="exp-duration">Nov 2023 – Apr 2024</p>
-
-    <ul class="exp-points">
-      <li>Contributed to the development and maintenance of a core housing loan management system for a leading financial
-institution.</li>
-      <li>Designed and enhanced COBOL programs for loan application processing, EMI, calculations, and interest rate
-adjustments.</li>
-      <li>Developed and scheduled JCL jobs for batch processing of loan data, improving processing time and efficiency.</li>
-      <li>Utilized DB2 for writing complex SQL queries to retrieve, update, and validate customer and loan information.</li>
-      <li>Created VSAM files for storing high-volume transactional data, ensuring efficient data access and updates.</li>
-    </ul>
+<!-- PROJECT BLOG POPUP -->
+<div class="project-popup-overlay" id="projectPopupOverlay" onclick="handleProjectOverlayClick(event)">
+  <div class="project-popup" role="dialog" aria-modal="true" aria-labelledby="projectPopupTitle">
+    <button class="project-popup-close" type="button" onclick="closeProjectPopup()" aria-label="Close project details">X</button>
+    <div class="project-popup-scroll" id="projectPopupScroll">
+      <div class="project-popup-cover" id="projectPopupCover"></div>
+      <article class="project-popup-article" id="projectPopupArticle">
+        <h1 class="project-popup-title" id="projectPopupTitle"></h1>
+        <div class="project-popup-meta">
+          <span class="project-popup-category" id="projectPopupCategory"></span>
+          <div class="project-popup-tags" id="projectPopupTags"></div>
+        </div>
+        <div class="project-popup-content" id="projectPopupContent"></div>
+      </article>
+    </div>
+    <a class="project-popup-float-btn" id="projectPopupLink" href="#" target="_blank" rel="noopener noreferrer">View Project</a>
   </div>
-</section>
+</div>
 
- <section id="education">
-  <h2>Education</h2>
-
-  <!-- BTECH -->
-  <div class="education-block">
-
-    <p class="edu-degree">
-      Bachelor of Technology in Civil Engineering
-    </p>
-
-    <p class="edu-institute">
-      Vasireddy Venkatadri Institute of Technology
-    </p>
-
-    <p class="edu-duration">
-      Sept 2019 – Apr 2023 | Namburu, Andhra Pradesh
-    </p>
-
-    <ul class="edu-points">
-      <li>Built strong problem-solving and analytical thinking skills through engineering coursework.</li>
-      <li>Gained experience working with structured data, calculations, and technical documentation.</li>
-    </ul>
-
-  </div>
-
-  <!-- INTERMEDIATE -->
-  <div class="education-block">
-
-    <p class="edu-degree">
-      Class XII – PCM
-    </p>
-
-    <p class="edu-institute">
-      Narayana Junior College
-    </p>
-
-    <p class="edu-duration">
-      June 2018 – Apr 2019
-    </p>
-
-    <ul class="edu-points">
-      <li>Developed a strong foundation in mathematics and logical reasoning.</li>
-    </ul>
-
-  </div>
-</section>
-
-
-    <section id="certificates">
-      <h2>Certificates</h2>
-      <ul>
-        <li>PL-300 Power BI Data Analyst</li>
-        <li>SQL for Data Analysis</li>
-      </ul>
-    </section>
-
-<section id="contact">
-  <h2>Let’s Connect</h2>
-
-  <p class="contact-text">
-    Feel free to get in touch with me. I am always open to discussing new projects,
-    creative ideas, or opportunities to be part of your vision.
-  </p>
-
-  <div class="contact-boxes">
-
-    <a href="mailto:poojik9@gmail.com" class="contact-box">
-      <i class="fas fa-envelope"></i>
-      <span>poojik9@gmail.com</span>
-    </a>
-
-    <a href="https://linkedin.com/in/yourprofile" target="_blank" class="contact-box">
-      <i class="fab fa-linkedin-in"></i>
-      <span>linkedin.com/in/yourprofile</span>
-    </a>
-
-    <a href="https://github.com/yourusername" target="_blank" class="contact-box">
-      <i class="fab fa-github"></i>
-      <span>github.com/yourusername</span>
-    </a>
-
-  </div>
-</section>
-
-
-
-
+<script src="app.js"></script>
+</body>
+</html>
