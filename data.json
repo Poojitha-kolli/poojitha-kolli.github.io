@@ -1,0 +1,230 @@
+{
+  "hero": {
+    "name": "Kolli Poojitha Nagasai",
+    "roles": [
+      "Data Analyst"
+    ],
+    "desc": "Technical Artist | Pipeline & Tools Developer  Web & App Developer | Python Automation  \n\nBridging creativity and code to build production-ready systems.",
+    "statYears": "2+",
+    "statProjects": "5+",
+    "statClients": "23+",
+    "heroImage": "https://raw.githubusercontent.com/nikhil0458/portfolio/main/images/hero_1777534924963.webp",
+    "aboutImage": "https://raw.githubusercontent.com/nikhil0458/portfolio/main/images/about_1777534931151.png"
+  },
+  "about": {
+    "title": "Technical Artist",
+    "desc1": "Technical Artist | Pipeline & Tools Developer  Web & App Developer | Python Automation  \n\nBridging creativity and code to build production-ready systems.",
+    "desc2": "My journey in Technical Artist began with a passion for problem-solving and Python Automation. Now I am bridging creativity and code to build production-ready systems."
+  },
+  "skills": [
+    {
+      "name": "SQL",
+      "pct": 95
+    },
+    {
+      "name": "Python",
+      "pct": 97
+    },
+    {
+      "name": "HTML",
+      "pct": 100
+    },
+    {
+      "name": "CSS",
+      "pct": 100
+    },
+    {
+      "name": "Java Script",
+      "pct": 97
+    },
+    {
+      "name": "React JS",
+      "pct": 95
+    },
+    {
+      "name": "Next JS",
+      "pct": 97
+    }
+  ],
+  "services": [
+    {
+      "icon": "✨",
+      "title": "Web Development",
+      "desc": "Web development is the process of building, creating, and maintaining websites and web applications. It ranges from developing simple single static pages of plain text to complex web applications, electronic businesses, and social network services"
+    },
+    {
+      "icon": "✨",
+      "title": "App development",
+      "desc": "Web development is the process of building, creating, and maintaining websites and web applications. It ranges from developing simple single static pages of plain text to complex web applications, electronic businesses, and social network services"
+    },
+    {
+      "icon": "✨",
+      "title": "Python Automition",
+      "desc": "Web development is the process of building, creating, and maintaining websites and web applications. It ranges from developing simple single static pages of plain text to complex web applications, electronic businesses, and social network services"
+    },
+    {
+      "icon": "✨",
+      "title": "Pipeline developer ",
+      "desc": "Web development is the process of building, creating, and maintaining websites and web applications. It ranges from developing simple single static pages of plain text to complex web applications, electronic businesses, and social network services"
+    }
+  ],
+  "experience": [
+    {
+      "date": "Aug 2025 – Present",
+      "role": "Technical Artist",
+      "company": "Green Gold Animation Pvt. Ltd., Hyderabad",
+      "desc": "Technical Artist | Pipeline & Tools Developer  Web & App Developer | Python Automation  \n\nBridging creativity and code to build production-ready systems."
+    },
+    {
+      "date": "Aug 2022 – Feb 2024",
+      "role": "Bench Sale and Human Resource ",
+      "company": "Matrix IT Soloutions, Hyderabad",
+      "desc": "Contributed to hiring empolyes and plasing canditaes who are on the bench US compomnies "
+    }
+  ],
+  "education": [
+    {
+      "date": "2024 – 2025",
+      "degree": "Diploma in Animation",
+      "school": "Elements School of Arts",
+      "grade": "9.5/10"
+    },
+    {
+      "date": "2018 – 2022",
+      "degree": "B.Tech – ECE",
+      "school": "VVIT",
+      "grade": "8.0/10"
+    }
+  ],
+  "projects": [
+    {
+      "title": "OTT Merger Analysis",
+      "tags": [
+        "Power BI",
+        "SQL",
+        "Figma"
+      ],
+      "desc": "Web development is the process of building, creating, and maintaining websites and web applications. It ranges from developing simple single static pages of plain text to complex web applications, electronic businesses, and social network services. \nWikipedia\nWikipedia\n +4\nCore Specializations\nWeb development is typically categorized into three main areas:\nFront-End Development: Focuses on the \"client-side,\" which is everything a user sees and interacts with in a browser. Key technologies include HTML for structure, CSS for styling, and JavaScript for interactivity.\nBack-End Development: Focuses on the \"server-side,\" handling the logic, database interactions, and server configuration. Common languages include Python, PHP, Node.js, and Ruby.\nFull-Stack Development: Involves proficiency in both front-end and back-end technologies, allowing a developer to build an entire application from start to finish. \nW3Schools\nW3Schools\n +6\nEssential Tools & Technologies\nFrameworks & Libraries: Tools like React, Angular, and Vue.js (Front-end) or Django, Express.js, and Laravel (Back-end) provide pre-written code to speed up development.\nVersion Control: Git and platforms like GitHub are used to track code changes and collaborate with other developers.\nDatabases: Systems like MySQL or PostgreSQL (Relational/SQL) and MongoDB (NoSQL) store and organize website data.\nCode Editors: Visual Studio Code (VS Code) is the most widely used environment for writing and debugging code. \nGeeksforGeeks\nGeeksforGeeks\n +6\nLearning Paths\nSelf-Directed Learning: Platforms like W3Schools, MDN Web Docs, and The Odin Project offer free, comprehensive guides for beginners.\nStructured Courses: Providers like Coursera, Udemy, and Codecademy offer certifications from universities and tech leaders like Google and Meta.",
+      "emoji": "📺",
+      "link": "#",
+      "category": "Power BI",
+      "image": "https://raw.githubusercontent.com/nikhil0458/portfolio/main/images/project_1777534623152.jpg",
+      "content": "<p><b>Wikipedia\nWikipedia\n +4\nCore Specializations\nWeb development is typically categorized into three main areas:\nFront-End Development: Focuses on the \"client-side,\" which is everything a user sees and interacts with in a browser. Key technologies include HTML for structure, CSS for styling, and JavaScript for interactivity.\nBack-End Development: Focuses on the \"server-side,\" handling the logic, database interactions, and server configuration. <br></b><br><i>Common languages include Python, PHP, Node.js, and Ruby.\nFull-Stack Development: Involves proficiency in both front-end and back-end technologies, allowing a developer to build an entire application from start to finish. \nW3Schools\nW3Schools\n +6\nEssential Tools &amp; Technologies\nFrameworks &amp; Libraries: Tools like React, Angular, and Vue.js (Front-end) or Django, Express.js, and Laravel (Back-end) provide pre-written code to speed up development.\n<br></i><br><img src=\"https://raw.githubusercontent.com/nikhil0458/portfolio/main/images/project_blog_0_1777534254698.jpg\"><br>Version Control: Git and platforms like GitHub are used to track code changes and collaborate with other developers. Databases: Systems like MySQL or PostgreSQL (Relational/SQL) and MongoDB (NoSQL) store and organize website data. Code Editors: Visual Studio Code (VS Code) is the most widely used environment for writing and debugging code. GeeksforGeeks GeeksforGeeks +6 Learning Paths Self-Directed Learning: Platforms like W3Schools, MDN Web Docs, and The Odin Project offer free, comprehensive guides for beginners. Structured Courses: Providers like Coursera, Udemy, and Codecademy offer certifications from universities and tech leaders like Google and Meta.</p>"
+    },
+    {
+      "title": "India's EV Market Analysis",
+      "tags": [
+        "Power BI",
+        "SQL"
+      ],
+      "desc": "Comprehensive analysis of key market metrics, regional insights, manufacturer performance, seasonal trends, and future projections.",
+      "emoji": "⚡",
+      "link": "#",
+      "category": "Power BI",
+      "image": "",
+      "content": "<p>Comprehensive analysis of key market metrics, regional insights, manufacturer performance, seasonal trends, and future projections.</p>"
+    },
+    {
+      "title": "Business Insights 360",
+      "tags": [
+        "Power BI",
+        "DAX",
+        "Excel"
+      ],
+      "desc": "Analytics solution across Finance, Sales, Marketing, and Supply Chain with optimized DAX queries and dynamic visualizations.",
+      "emoji": "🔮",
+      "link": "#",
+      "category": "Power BI",
+      "image": "",
+      "content": "<p>Analytics solution across Finance, Sales, Marketing, and Supply Chain with optimized DAX queries and dynamic visualizations.</p>"
+    },
+    {
+      "title": "Finance & Supply Chain Analytics",
+      "tags": [
+        "MySQL"
+      ],
+      "desc": "MySQL-based analysis of sales performance, market dynamics, customer behavior, and supply chain forecasting.",
+      "emoji": "🏭",
+      "link": "#",
+      "category": "SQL",
+      "image": "",
+      "content": "<p>MySQL-based analysis of sales performance, market dynamics, customer behavior, and supply chain forecasting.</p>"
+    },
+    {
+      "title": "HR Analytics Dashboard",
+      "tags": [
+        "Tableau",
+        "SQL"
+      ],
+      "desc": "HR analytics dashboard tracking employee attrition, satisfaction ratings, and workforce demographics.",
+      "emoji": "👥",
+      "link": "#",
+      "category": "Tableau",
+      "image": "",
+      "content": "<p>HR analytics dashboard tracking employee attrition, satisfaction ratings, and workforce demographics.</p>"
+    },
+    {
+      "title": "Sales & Finance Analysis",
+      "tags": [
+        "Excel"
+      ],
+      "desc": "Comprehensive Excel-based analysis of AtliQ Hardware sales and financial performance across regions.",
+      "emoji": "📉",
+      "link": "#",
+      "category": "Excel",
+      "image": "",
+      "content": "<p>Comprehensive Excel-based analysis of AtliQ Hardware sales and financial performance across regions.</p>"
+    }
+  ],
+  "certs": [
+    {
+      "icon": "🏅",
+      "title": "Microsoft Certified: Power BI Data Analyst",
+      "org": "Microsoft",
+      "tag": "Power BI",
+      "link": "#"
+    },
+    {
+      "icon": "🥇",
+      "title": "Winner – Codebasics Analytics Challenge",
+      "org": "Codebasics",
+      "tag": "Power BI | SQL | Figma",
+      "link": "#"
+    },
+    {
+      "icon": "✅",
+      "title": "SQL Intermediate Certification",
+      "org": "HackerRank",
+      "tag": "SQL",
+      "link": "#"
+    },
+    {
+      "icon": "📜",
+      "title": "Power BI Data Analytics",
+      "org": "Codebasics",
+      "tag": "Power BI",
+      "link": "#"
+    },
+    {
+      "icon": "📜",
+      "title": "SQL Beginner to Advanced",
+      "org": "Codebasics",
+      "tag": "MySQL",
+      "link": "#"
+    },
+    {
+      "icon": "📗",
+      "title": "Excel: Mother of Business Intelligence",
+      "org": "Codebasics",
+      "tag": "Excel",
+      "link": "#"
+    }
+  ],
+  "contact": {
+    "email": "nikhil.jonnadula@gmail.com",
+    "phone": "+91 8179495147",
+    "location": "Hyderabad, India",
+    "linkedin": "#",
+    "github": "#"
+  }
+}
